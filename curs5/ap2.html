@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs5 ap2</title>
+    <style>
+        div img{
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+        @media screen AND (max-width: 360px){
+            h1{
+                color: red;
+            }
+            .desk, .tab, .lap{
+                display: none;
+            }
+        }
+        @media  screen AND (min-width: 361px) and (max-width: 768px) {
+            h1{
+                color: blue;
+            }
+            .desk, .tab, .lap{
+                display: none;
+            }
+        }
+        @media screen AND (min-width: 769px) and (max-width: 1240px) {
+            h1{
+                color: blue;
+            } 
+            .desk, .tab, .lap{
+                display: none;
+            }  
+        }
+        @media screen AND (min-width: 1241px) {
+            h1{
+                color: yellow;
+            }  
+            .desk, .tab, .lap{
+                display: none;
+            } 
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="desk">
+        <h1>Suntem pe Desktop</h1>
+        <img src="./images/mountain.jpeg" alt="desktop">
+    </div>
+    <div>
+        <div class="laptop">
+        <h1>Suntem pe Laptop</h1>
+        <img src="./images/img2.jpeg" alt="laptop">
+    </div>
+    <div>
+        <div class="tableta">
+        <h1>Suntem pe Tableta</h1>
+        <img src="./images/img3.jpeg" alt="tableta">
+    </div>
+    <div>
+        <div class="mobil">
+        <h1>Suntem pe Mobil</h1>
+        <img src="./images/img4.jpeg" alt="mobil">
+    </div>
+</body>
+</html>
