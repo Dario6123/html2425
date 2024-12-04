@@ -78,3 +78,21 @@ nav ul li a{
     display: inline-block;
     margin: 20px;
 }
+
+/* START Contact */
+
+#contact label{
+    width: 100px;
+    display: inline-block;
+}
+#contact select{
+    width: 200px;
+}
+#contact fieldset{
+    display: inline-block;
+    width: 400px;
+    border: 2px solid rgb(50, 108, 13);
+    
+}
+
+/* START Contact */
