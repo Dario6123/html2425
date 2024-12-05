@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP9</title>
+    <style>
+        #tabel{
+            border: 1px green;
+            font-family: 'Times New Roman', Times, serif;
+            border-collapse: collapse;
+        }
+        #tabel tr td{
+            border: 1px greenyellow; 
+            padding: 15px;
+        }
+        #tabel1 tr th{
+            color: green;
+            background-color: black;
+        }
+        #tabel1 tbody tr:nth-child(2n+1){
+            background-color: aqua;
+        }
+        #tabel1 tfoot tr{
+            background-color: blue;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Orase numar de masini noi - vechi</h1>
+    <table id="table">
+        <tbody>
+            <tr>
+                <td>Timisoara</td>
+                <td>200</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Cluj</td>
+                <td>150</td>
+                <td>7000</td>
+            </tr>
+            <tr>
+                <td>Bucuresti</td>
+                <td>1200</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Iasi</td>
+                <td>50</td>
+                <td>700</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>1600</td>
+                <td>12270</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+
+                <td>18770</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

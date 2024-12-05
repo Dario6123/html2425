@@ -1,0 +1,17 @@
+nav{
+   width: 100%
+}
+nav ul{
+    height: 30px;
+    padding: 60px 0px;
+    background-color: aqua;
+}
+nav ul li{
+    display: inline;
+    padding: 20px 25px;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 20px;
+    color: black;
+}
